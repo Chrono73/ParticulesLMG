@@ -1,0 +1,15 @@
+﻿Build started 08/01/2016 21:57:28.
+     1>Project "C:\Users\Sayuko\Documents\GitHub\Geyser\Build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/Sayuko/Documents/GitHub/Geyser/Build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/src/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/examples/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\Users\Sayuko\Documents\GitHub\Geyser\Build\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.30

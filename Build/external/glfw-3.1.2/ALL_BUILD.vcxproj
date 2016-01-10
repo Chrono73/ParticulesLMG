@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{4B7DF9C0-65B0-32EE-9F43-E9016E7C7944}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Sayuko/Documents/GitHub/Geyser/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Sayuko/Documents/GitHub/Geyser -BC:/Users/Sayuko/Documents/GitHub/Geyser/Build --check-stamp-file C:\Users\Sayuko\Documents\GitHub\Geyser\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sayuko/Documents/GitHub/Geyser/external/glfw-3.1.2/CMakeLists.txt;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\src\glfw_config.h.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sayuko\Documents\GitHub\Geyser\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Sayuko/Documents/GitHub/Geyser/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Sayuko/Documents/GitHub/Geyser -BC:/Users/Sayuko/Documents/GitHub/Geyser/Build --check-stamp-file C:\Users\Sayuko\Documents\GitHub\Geyser\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sayuko/Documents/GitHub/Geyser/external/glfw-3.1.2/CMakeLists.txt;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\src\glfw_config.h.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sayuko\Documents\GitHub\Geyser\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Sayuko/Documents/GitHub/Geyser/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Sayuko/Documents/GitHub/Geyser -BC:/Users/Sayuko/Documents/GitHub/Geyser/Build --check-stamp-file C:\Users\Sayuko\Documents\GitHub\Geyser\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sayuko/Documents/GitHub/Geyser/external/glfw-3.1.2/CMakeLists.txt;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\src\glfw_config.h.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sayuko\Documents\GitHub\Geyser\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Sayuko/Documents/GitHub/Geyser/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Sayuko/Documents/GitHub/Geyser -BC:/Users/Sayuko/Documents/GitHub/Geyser/Build --check-stamp-file C:\Users\Sayuko\Documents\GitHub\Geyser\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sayuko/Documents/GitHub/Geyser/external/glfw-3.1.2/CMakeLists.txt;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\src\glfw_config.h.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sayuko\Documents\GitHub\Geyser\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/examples/boing.vcxproj">
+      <Project>81338808-5045-3BFE-B3B2-A2B0EF4181C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/clipboard.vcxproj">
+      <Project>37E573F2-3CF3-36A3-AB51-DD270265C933</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/cursor.vcxproj">
+      <Project>DCF9F9E9-8DCC-3D47-B87C-804DEDDB7F91</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/empty.vcxproj">
+      <Project>E5A654B3-DCAD-3E28-B4E8-282FEEB82E54</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/events.vcxproj">
+      <Project>6E2E7113-89A8-351D-BEB2-E4A73CF9A5DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/gamma.vcxproj">
+      <Project>4163783C-F18F-3C81-9748-9D568EB309DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/examples/gears.vcxproj">
+      <Project>B5B578E1-37D6-36DB-B264-D5E7DF408539</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/src/glfw.vcxproj">
+      <Project>F82E0BB5-595F-3162-8F92-0FAFECDFA7A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/glfwinfo.vcxproj">
+      <Project>F1D14AAF-C300-350C-9910-004EC7930C26</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/examples/heightmap.vcxproj">
+      <Project>E39C46A8-E6A0-3381-9285-134EF63D618F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/iconify.vcxproj">
+      <Project>DDB737D8-0272-35F4-9EC5-E108DFEBE49A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/joysticks.vcxproj">
+      <Project>D57DC26C-C25B-3C66-9296-33184F9DC333</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/monitors.vcxproj">
+      <Project>D54CDD06-3508-3612-9286-24AAC597A10F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/msaa.vcxproj">
+      <Project>EE67B822-5530-3FEA-AE64-097ACE4DE5DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/examples/particles.vcxproj">
+      <Project>04F177DD-327A-3C05-B0D0-A561F780DDE8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/reopen.vcxproj">
+      <Project>683E283E-8EB0-3C24-98A9-93AAF4C76751</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/sharing.vcxproj">
+      <Project>5AF5596D-8F62-3C5F-ADA9-9B03DFCD62BA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/examples/simple.vcxproj">
+      <Project>84F437A6-276A-3D4C-BA29-05193711FB9C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/examples/splitview.vcxproj">
+      <Project>D2BC1605-F0D3-3CED-BD3F-F9D965BF9B1F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/tearing.vcxproj">
+      <Project>9819A6C5-A3D2-3E0B-B239-2BF3C830ABCA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/threads.vcxproj">
+      <Project>5C95F9EA-0368-3817-8F3F-9E99D2A3F5C6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/title.vcxproj">
+      <Project>C9190715-9C63-3D5B-8ED7-91DB169E0F79</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/examples/wave.vcxproj">
+      <Project>3AD1ED70-DBC8-3350-9046-67CD5DF9904A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/tests/windows.vcxproj">
+      <Project>33C548D4-4F66-3003-A9F1-E46DDB5934BA</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

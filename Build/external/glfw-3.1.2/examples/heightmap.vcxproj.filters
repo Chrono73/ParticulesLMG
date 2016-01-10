@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\examples\heightmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\deps\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\deps\glad\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6E37AFA3-2056-382A-8987-75D5B9903766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DB3D10C6-648B-38A0-AC82-502880AE98E5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

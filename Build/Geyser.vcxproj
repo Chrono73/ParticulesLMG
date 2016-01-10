@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{ABE509B3-FD61-304B-A5C0-4516555B194F}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Geyser</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sayuko\Documents\GitHub\Geyser\Build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geyser.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geyser</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sayuko\Documents\GitHub\Geyser\Build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geyser.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geyser</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sayuko\Documents\GitHub\Geyser\Build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Geyser.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Geyser</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sayuko\Documents\GitHub\Geyser\Build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Geyser.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Geyser</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\include\GLFW;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glm-0.9.7.1;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glew-1.13.0\include;C:\Users\Sayuko\Documents\GitHub\Geyser\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\include\GLFW;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glm-0.9.7.1;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glew-1.13.0\include;C:\Users\Sayuko\Documents\GitHub\Geyser\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\include\GLFW;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glm-0.9.7.1;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glew-1.13.0\include;C:\Users\Sayuko\Documents\GitHub\Geyser\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/Sayuko/Documents/GitHub/Geyser/Build/$(Configuration)/Geyser.exe C:/Users/Sayuko/Documents/GitHub/Geyser/Particle_System_Project
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;external\glfw-3.1.2\src\Debug\glfw3.lib;external\Debug\GLEW_1130.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sayuko/Documents/GitHub/Geyser/Build/Debug/Geyser.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sayuko/Documents/GitHub/Geyser/Build/Debug/Geyser.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\include\GLFW;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glm-0.9.7.1;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glew-1.13.0\include;C:\Users\Sayuko\Documents\GitHub\Geyser\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\include\GLFW;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glm-0.9.7.1;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glew-1.13.0\include;C:\Users\Sayuko\Documents\GitHub\Geyser\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\include\GLFW;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glm-0.9.7.1;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glew-1.13.0\include;C:\Users\Sayuko\Documents\GitHub\Geyser\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/Sayuko/Documents/GitHub/Geyser/Build/$(Configuration)/Geyser.exe C:/Users/Sayuko/Documents/GitHub/Geyser/Particle_System_Project
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;external\glfw-3.1.2\src\Release\glfw3.lib;external\Release\GLEW_1130.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sayuko/Documents/GitHub/Geyser/Build/Release/Geyser.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sayuko/Documents/GitHub/Geyser/Build/Release/Geyser.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\include\GLFW;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glm-0.9.7.1;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glew-1.13.0\include;C:\Users\Sayuko\Documents\GitHub\Geyser\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\include\GLFW;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glm-0.9.7.1;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glew-1.13.0\include;C:\Users\Sayuko\Documents\GitHub\Geyser\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\include\GLFW;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glm-0.9.7.1;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glew-1.13.0\include;C:\Users\Sayuko\Documents\GitHub\Geyser\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/Sayuko/Documents/GitHub/Geyser/Build/$(Configuration)/Geyser.exe C:/Users/Sayuko/Documents/GitHub/Geyser/Particle_System_Project
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;external\glfw-3.1.2\src\MinSizeRel\glfw3.lib;external\MinSizeRel\GLEW_1130.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sayuko/Documents/GitHub/Geyser/Build/MinSizeRel/Geyser.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sayuko/Documents/GitHub/Geyser/Build/MinSizeRel/Geyser.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\include\GLFW;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glm-0.9.7.1;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glew-1.13.0\include;C:\Users\Sayuko\Documents\GitHub\Geyser\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\include\GLFW;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glm-0.9.7.1;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glew-1.13.0\include;C:\Users\Sayuko\Documents\GitHub\Geyser\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sayuko\Documents\GitHub\Geyser\external\glfw-3.1.2\include\GLFW;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glm-0.9.7.1;C:\Users\Sayuko\Documents\GitHub\Geyser\external\glew-1.13.0\include;C:\Users\Sayuko\Documents\GitHub\Geyser\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/Sayuko/Documents/GitHub/Geyser/Build/$(Configuration)/Geyser.exe C:/Users/Sayuko/Documents/GitHub/Geyser/Particle_System_Project
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;external\glfw-3.1.2\src\RelWithDebInfo\glfw3.lib;external\RelWithDebInfo\GLEW_1130.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sayuko/Documents/GitHub/Geyser/Build/RelWithDebInfo/Geyser.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sayuko/Documents/GitHub/Geyser/Build/RelWithDebInfo/Geyser.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sayuko\Documents\GitHub\Geyser\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Sayuko/Documents/GitHub/Geyser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Sayuko/Documents/GitHub/Geyser -BC:/Users/Sayuko/Documents/GitHub/Geyser/Build --check-stamp-file C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sayuko/Documents/GitHub/Geyser/CMakeLists.txt;C:\Users\Sayuko\Documents\GitHub\Geyser\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Sayuko/Documents/GitHub/Geyser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Sayuko/Documents/GitHub/Geyser -BC:/Users/Sayuko/Documents/GitHub/Geyser/Build --check-stamp-file C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sayuko/Documents/GitHub/Geyser/CMakeLists.txt;C:\Users\Sayuko\Documents\GitHub\Geyser\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Sayuko/Documents/GitHub/Geyser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Sayuko/Documents/GitHub/Geyser -BC:/Users/Sayuko/Documents/GitHub/Geyser/Build --check-stamp-file C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sayuko/Documents/GitHub/Geyser/CMakeLists.txt;C:\Users\Sayuko\Documents\GitHub\Geyser\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Sayuko/Documents/GitHub/Geyser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Sayuko/Documents/GitHub/Geyser -BC:/Users/Sayuko/Documents/GitHub/Geyser/Build --check-stamp-file C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sayuko/Documents/GitHub/Geyser/CMakeLists.txt;C:\Users\Sayuko\Documents\GitHub\Geyser\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\Sayuko\Documents\GitHub\Geyser\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sayuko\Documents\GitHub\Geyser\common\shader.hpp" />
+    <ClInclude Include="C:\Users\Sayuko\Documents\GitHub\Geyser\common\texture.hpp" />
+    <ClInclude Include="C:\Users\Sayuko\Documents\GitHub\Geyser\common\controls.hpp" />
+    <ClCompile Include="C:\Users\Sayuko\Documents\GitHub\Geyser\Particle_System_Project\main.cpp"  />
+    <ClCompile Include="C:\Users\Sayuko\Documents\GitHub\Geyser\common\shader.cpp"  />
+    <ClCompile Include="C:\Users\Sayuko\Documents\GitHub\Geyser\common\texture.cpp"  />
+    <ClCompile Include="C:\Users\Sayuko\Documents\GitHub\Geyser\common\controls.cpp"  />
+    <None Include="C:\Users\Sayuko\Documents\GitHub\Geyser\Particle_System_Project\Particle.fragmentshader" />
+    <None Include="C:\Users\Sayuko\Documents\GitHub\Geyser\Particle_System_Project\Particle.vertexshader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/ZERO_CHECK.vcxproj">
+      <Project>04EB18C6-2F2E-3A7A-957F-28C4A4C6132C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/GLEW_1130.vcxproj">
+      <Project>881FBB4B-90F2-35B2-AE65-7E58A167C921</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sayuko/Documents/GitHub/Geyser/Build/external/glfw-3.1.2/src/glfw.vcxproj">
+      <Project>F82E0BB5-595F-3162-8F92-0FAFECDFA7A0</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

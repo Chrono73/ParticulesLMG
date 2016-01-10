@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sayuko\Documents\GitHub\Geyser\Build\CMakeFiles\b0e52d36582664f969f575d88e3546da\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6ECF68A7-D436-38E5-84B1-4511A0B687C3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
